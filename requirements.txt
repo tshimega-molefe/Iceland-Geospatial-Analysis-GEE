@@ -1,0 +1,4 @@
+conda create -n leviathan python=3.11
+conda activate leviathan
+conda install -c conda-forge mamba
+mamba install -c conda-forge geemap pygis
