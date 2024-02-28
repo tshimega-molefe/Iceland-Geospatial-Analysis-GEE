@@ -1,52 +1,59 @@
-# Earth Engine Python API Workshop for Geospatial Analysis in Iceland
+# Iceland Renewable Energy Analysis with Google Earth Engine
 
-Welcome to the GitHub repository for our workshop on cloud-based geospatial analysis using the Earth Engine Python API, tailored for applications in Iceland. This workshop was featured at the 2023 Geo for Good Summit and is designed to equip participants with the foundational skills necessary to leverage the powerful Earth Engine platform for environmental and geospatial data analysis.
+Welcome to the GitHub repository dedicated to leveraging Google Earth Engine (GEE) for in-depth analysis of renewable energy potential in Iceland, focusing on geothermal and hydroelectric power opportunities. This initiative, spearheaded by Leviathan, aims to harness the extensive satellite imagery and analysis capabilities of GEE to identify, evaluate, and optimize renewable energy investments in Iceland's unique geological and hydrological landscape.
 
 ## Overview
 
-This repository serves as a comprehensive resource for anyone interested in applying Google Earth Engine (GEE) to monitor environmental and geospatial data, with a focus on use cases relevant to Iceland. The workshop introduces attendees to the basics of the Earth Engine data types, visualization techniques, analysis, and data export capabilities within a Jupyter notebook environment, utilizing geemap for enhanced mapping functionalities.
+Iceland stands on the forefront of renewable energy production, largely due to its abundant geothermal resources and extensive waterways. This repository focuses on the application of GEE to map geothermal activity and water flow patterns, thereby guiding investors towards high-potential projects and informing the development of sustainable energy infrastructure.
 
-## What You Will Learn
+## Objectives
 
-- **Introduction to Earth Engine Data Types**: Understand the various data types available within Earth Engine and how they can be utilized for geospatial analysis.
-- **Data Visualization**: Learn how to visualize Earth Engine data effectively using geemap in a Jupyter notebook, making your data analysis more intuitive and accessible.
-- **Data Analysis and Export**: Gain insights into analyzing Earth Engine data to derive meaningful environmental metrics and learn how to export your data for further use.
-- **Interactive Earth Engine Web Apps**: Discover how to develop and deploy interactive web applications powered by Earth Engine and Python, enabling broader access to your geospatial analyses.
-- **Hands-On Exercises**: Enhance your learning experience through practical examples and hands-on exercises provided in Google Colab notebooks, guided by our instructors.
-
-## For Whom Is This Workshop?
-
-This workshop is ideal for environmental scientists, researchers, policy makers, and anyone interested in leveraging cloud-based geospatial analysis for environmental monitoring and decision-making, with a specific focus on Iceland. Whether you are monitoring renewable energy resources, assessing the impact of tourism, or analyzing urban expansion, this workshop provides the necessary tools and knowledge to apply GEE effectively.
+- **Identify Geothermal Energy Potential**: Utilize GEE to analyze surface temperature data and thermal anomalies across Iceland, highlighting areas with significant geothermal energy potential.
+- **Map Hydroelectric Power Opportunities**: Analyze precipitation data, snowmelt patterns, and river flow rates to pinpoint locations ideal for hydroelectric power generation.
+- **Assess Environmental Impacts**: Employ satellite imagery to evaluate the potential environmental impacts of renewable energy projects, ensuring alignment with sustainability goals.
+- **Inform Strategic Investment Decisions**: Integrate geospatial analysis with financial models to forecast project feasibility, costs, and returns, thereby optimizing investment strategies.
 
 ## Getting Started
 
-To get started with the workshop materials, you'll need a Google account and access to Google Colab. Follow these steps to set up your environment:
+To participate in this analysis or explore our findings, you'll need access to GEE and basic knowledge of its Python API. This repository includes Jupyter notebooks that provide a step-by-step guide to conducting the analyses described above.
 
-1. **Clone or Download This Repository**: Access all the workshop materials, including Jupyter notebooks and datasets.
-2. **Open Notebooks in Google Colab**: Instructions are provided within each notebook to guide you through the setup process and ensure you have all the necessary libraries and dependencies installed.
-3. **Complete the Hands-On Exercises**: At the end of each session, work through the exercises to apply what you've learned and solidify your understanding of Earth Engine's capabilities.
+### Prerequisites
 
-## Sessions
+- Google account with access to Google Earth Engine
+- Familiarity with Python and Jupyter notebooks
+- Interest in renewable energy and environmental sustainability
 
-The repository is organized into sessions, each focusing on different aspects of geospatial analysis using Earth Engine:
+### Installation and Setup
 
-- **Session 1**: Introduction to Earth Engine and Geospatial Data Types
-- **Session 2**: Visualization with Earth Engine and geemap
-- **Session 3**: Advanced Analysis Techniques and Data Export
-- **Session 4**: Developing Interactive Web Apps with Earth Engine
+1. **Clone This Repository**: Get access to all the materials and notebooks.
+2. **Sign Up for GEE**: Ensure you have access to Earth Engine and the necessary APIs.
+3. **Run the Notebooks**: Follow the instructions within each notebook to execute the analyses.
+
+## Repository Structure
+
+- `README.md`: This overview document.
+- `geothermal_analysis.ipynb`: Notebook detailing the analysis of geothermal energy potential.
+- `hydroelectric_analysis.ipynb`: Notebook focusing on identifying hydroelectric power opportunities.
+- `environmental_impact_assessment.ipynb`: Guidelines and methods for assessing the environmental impacts of renewable energy projects.
+- `financial_model_integration.ipynb`: Instructions on integrating geospatial analysis with financial models.
 
 ## Contributing
 
-We welcome contributions from the community! Whether you have a suggestion to improve the workshop materials, want to add more examples relevant to Iceland, or have developed a new interactive web app, please feel free to open an issue or submit a pull request.
+Leviathan welcomes contributions from researchers, environmental scientists, and renewable energy enthusiasts. Whether it's improving the analysis, expanding the datasets, or refining the financial models, your input can help drive sustainable energy development in Iceland.
+
+### How to Contribute
+
+- **Fork the Repository**: Make your own copy to work on.
+- **Create a Pull Request**: Submit your enhancements for review.
+- **Share Your Insights**: If you have conducted similar analyses or have expertise in renewable energy, we'd love to hear from you.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
 
 ## Acknowledgments
 
-- Thanks to the Geo for Good Summit for hosting this workshop.
-- Gratitude to the instructors and attendees who made this workshop a success.
-- Special thanks to the Google Earth Engine team for providing the platform and tools that make this type of analysis possible.
+- Thanks to the Google Earth Engine team for providing the platform that makes this analysis possible.
+- Gratitude to all contributors for their insights and enhancements to this project.
 
-We hope this repository serves as a valuable resource for applying Earth Engine for environmental and geospatial analysis in Iceland. Happy coding!
+Leviathan is committed to advancing renewable energy development in Iceland through data-driven analysis and strategic investment. We believe that by leveraging cutting-edge technologies like GEE, we can uncover new opportunities for sustainable energy projects that benefit not only investors but also the environment and local communities.
